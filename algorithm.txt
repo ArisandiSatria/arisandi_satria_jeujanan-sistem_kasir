@@ -1,0 +1,9 @@
+Algoritma:
+
+1. Mulai
+2. Masukkan barang
+3. Masukkan harga barang
+4. Jumlah barang dikalikan harga barang
+5. Jika ingin menginputkan barang lagi, maka kembali ke langkah nomor 2
+6. Jika tidak ingin menginputkan barang lagi, maka mengeluarkan hasil total harga dan total barang
+7. Selesai
