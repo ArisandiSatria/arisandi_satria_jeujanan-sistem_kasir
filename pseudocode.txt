@@ -1,0 +1,19 @@
+STORE "Total harga" AS NUMBER WITH 0
+
+WHILE TRUE
+DO
+  READ AND WRITE "Barang" WITH STRING
+  READ AND WRITE "Harga" WITH NUMBER
+  STORE "Total barang" AS STRING WITH 0
+
+  STORE "Total barang" WITH "Total barang" PLUS "Barang"
+  STORE "Total harga" WITH "Total barang" TIMES "Harga"
+
+  IF "Input lagi" EQUAL "Yes"
+    WHILE EQUAL TO TRUE
+    BACK TO INPUT "Barang"
+  ELSE
+    WHILE EQUAL TO FALSE
+    LOOPING STOP
+
+PRINT "Total harga" AND "Total barang"
